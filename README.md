@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um programa criado para manter um track dos seus hábitos todos os dias.
 
-- [Acesse o projeto finalizado, online](https://jp-avr.github.io/nlw-setup)
+- [Acesse o projeto online](https://jp-avr.github.io/nlw-setup)
 
 ## 🔖 Layout
 
