@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: #ffffff;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 25px; /* O tamanho ao redor do header */
+
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
+}
+
+button {
+  padding: 16px 24px; /* Esse comando serve para o tamanho bordinha (largura x altura) */
+  border-radius: 8px; /* Esse comando serve para a circunferência da bordinha */
+  border: 1px solid #8b5cf6; /* Esse comando serve pra mostrar a bordinha */
+  background-color: transparent; /* Eses comando serve para mudar a cor de fundo  */
+  color: #ffffff; /* Cor do texto */
+
+  display: flex; /* Moverem fácil */
+  align-items: center; /* Alinhar os itens */
+  gap: 12px; /* Escolhe a distância entre um item e outro, nesse caso da frase e do botão */
+
+  font-family: "Inter"; /* Fonte escolhida */
+  font-weight: 600; /* Peso da fonte */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 125%; /* Altura da fonte */
+}
+
+#form-habits {
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+
+  color: #a1a1aa;
+}
+
+.habits {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.habit {
+  height: 64px;
+  width: 64px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hour{
+  display: flex;
+  
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background-color: #18181b;
+}
+
+input:checked {
+  border: 2px solid #a78bfa;
+  background-color: #8b5cf6;
+}
+
+@media (max-width: 570px){
+  button div{
+    display: none;
+  }
+}
